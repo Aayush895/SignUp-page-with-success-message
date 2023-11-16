@@ -28,7 +28,6 @@ main {
 
 #component-container {
   width: 60%;
-  border: 1px solid;
   border-radius: 2rem;
   display: flex;
   align-items: center;
@@ -76,11 +75,12 @@ main {
 .form-input > input {
   width: 85%;
   padding: 1rem 1rem;
-  margin-bottom: 1rem;
   color: var(--Grey);
+  border: 1px solid var(--Grey);
+  border-radius: 0.5rem;
 }
 
-form > button {
+button {
   width: 93.5%;
   padding: 1rem;
   border: none;
@@ -89,9 +89,47 @@ form > button {
   color: var(--White);
   cursor: pointer;
   font-weight: 700;
+  margin-top: 1rem;
 }
 
-form > button:hover {
+button:hover {
   background: linear-gradient(to right, var(--Tomato2), var(--Tomato));
   box-shadow: 5px 2px 20px 3px rgba(255,98,87,0.75);
+}
+
+@media (max-width: 430px) {
+  main {
+    height: 120vh;
+  }
+
+  #component-container {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+  }
+
+  #component-content {
+    padding: 0 1.5rem;
+  }
+
+  #component-img {
+    width: 100%;
+  }
+
+  #component-img > img {
+    width: 100%;
+  }
+
+  .form-input > input {
+    border: 1px solid var(--Grey);
+    width: 90%
+  }
+
+  button {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
 }
