@@ -32,8 +32,8 @@ Users should be able to:
 
 ![Dekstop Signup](/Screenshots/desktop-signup.png)
 ![Desktop Success](/Screenshots/desktop-success.png)
-![Mobile Signup](/Screenshots/desktop-signup.png)
-![Mobile Success](/Screenshots/desktop-success.png)
+![Mobile Signup](/Screenshots/mobile-signup.png)
+![Mobile Success](/Screenshots/mobile-success.png)
 
 ### Links
 
