@@ -80,6 +80,24 @@ main {
   border-radius: 0.5rem;
 }
 
+#success-container {
+  background-color: var(--White);
+  width: 25%;
+  padding: 5rem;
+  border-radius: 2rem;
+  box-shadow: 5px 2px 20px 2px rgba(0,0,0,0.75);
+}
+
+.success-content > h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3rem;
+}
+
+.success-content > p > span {
+  font-weight: bolder;
+}
+
 button {
   width: 93.5%;
   padding: 1rem;
@@ -97,9 +115,15 @@ button:hover {
   box-shadow: 5px 2px 20px 3px rgba(255,98,87,0.75);
 }
 
+@media (max-width: 850px) {
+  #component-container {
+    width: 90%;
+  }
+}
+
 @media (max-width: 430px) {
   main {
-    height: 120vh;
+    height: 105vh;
   }
 
   #component-container {
@@ -131,5 +155,21 @@ button:hover {
   button {
     width: 100%;
     margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 390px) {
+  main {
+    height: 120vh
+  }
+}
+
+@media (max-width: 320px) {
+  main {
+    height: 147vh;
+  }
+
+  #component-content > h1 {
+    font-size: 2rem;
   }
 }
