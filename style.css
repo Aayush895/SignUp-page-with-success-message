@@ -119,6 +119,10 @@ button:hover {
   #component-container {
     width: 90%;
   }
+
+  #success-container {
+    width: 45%;
+  }
 }
 
 @media (max-width: 430px) {
@@ -156,11 +160,19 @@ button:hover {
     width: 100%;
     margin-bottom: 1rem;
   }
+
+  #success-container {
+    width: 100%;
+  }
 }
 
 @media (max-width: 390px) {
   main {
     height: 120vh
+  }
+
+  #success-container {
+    width: 100%;
   }
 }
 
@@ -171,5 +183,11 @@ button:hover {
 
   #component-content > h1 {
     font-size: 2rem;
+  }
+
+  #success-container {
+    width: 100%;
+    box-shadow: none;
+    border-radius: 0;
   }
 }

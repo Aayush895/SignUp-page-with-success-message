@@ -3,7 +3,6 @@ const formInput = document.querySelector('.form-input')
 const submitBtn = document.querySelector('button')
 const input = document.querySelector('.form-input').querySelector('input')
 const imgContainer = document.getElementById('component-img')
-const dismissBtn = document.getElementById('dismiss-msg')
 
 const validateEmail = (email) => {
   const atSign = email.indexOf('@')
@@ -19,7 +18,7 @@ const validateEmail = (email) => {
         <p>A confirmation email has been sent to <span>${email}</span>.
         Please open it and click the button inside to confirm your subscription.</p>
       </div>
-      <button id='dismiss-msg'>Dismiss message</button>
+      <button>Dismiss message</button>
     </div>`
     email.value = ''
   } else {
@@ -65,7 +64,7 @@ submitBtn.addEventListener('click', () => {
 
 dismissBtn.addEventListener('click', returnToNewletter)
 
-if(window.innerWidth <= 430) {
+if (window.innerWidth <= 430) {
   imgContainer
     .querySelector('img')
     .setAttribute('src', 'assets/images/illustration-sign-up-mobile.svg')
