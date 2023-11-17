@@ -55,8 +55,8 @@ Learned about how to create a newsletter sign-up page through vanilla javascript
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Aayush895)
-- Twitter - [@yourusername](https://www.twitter.com/JhaAayush895)
+- Frontend Mentor - [@Aayush895](https://www.frontendmentor.io/profile/Aayush895)
+- Twitter - [@JhaAayush895](https://www.twitter.com/JhaAayush895)
 
 ## Acknowledgments
 
